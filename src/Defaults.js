@@ -5,7 +5,7 @@ export default {
   onInit: $.noop,
   onDestroy: $.noop,
   onFinish: $.noop,
-  onChange() { return true; },
+  onChange: function() { return true; },
   stepSelector: '.step-steps > li',
   contentSelector: '.step-content > .step-tab-panel',
   footerSelector: '.step-footer',
